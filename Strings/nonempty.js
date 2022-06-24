@@ -28,9 +28,10 @@ function stringCheck (str) {
 // how to check for string using the string object.
 
 function string2Check (str) {
-  if (typeof unknownVariable === 'string' || String.prototype.isPrototypeOf(unknownVariable)) {
-    console.log(firstName)
+  if (typeof lastName === 'string' || String.prototype.isPrototypeOf(lastName)) {
+    console.log(lastName)
   }
 }
 
+string2Check()
 stringCheck();
